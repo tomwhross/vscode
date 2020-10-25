@@ -1,0 +1,25 @@
+{
+    "python.pythonPath": "/Users/tomross/projects/budget/bin/python",
+    "python.linting.pylintArgs": [
+        "--load-plugins",
+        "pylint-flask-sqlalchemy",
+        "pylint_flask",
+    ],
+    "git.ignoreLimitWarning": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "python.sortImports.args": [
+        "--multi-line=3",
+        "--trailing-comma",
+        "--force-grid-wrap=0",
+        "--use-parentheses",
+        "--line-width=88",
+    ]
+}
